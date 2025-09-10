@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(210, 210, 225);
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+}
+
+#TitleBar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    height: 85px;
+    width: 100%;
+    justify-content: center;
+    background-color: rgba(210, 210, 225, 0.4);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+a{
+    color: white;
+    font-size: 25px;
+    margin-left: 40px;
+    text-decoration: none;
+    font-family: "Times New Roman";
+    font-weight: bolder;
+}
+
+#logo{
+    border-radius: 100%;
+    align-self: flex-start;
+    position: absolute;
+    left: 0;
+    margin-left: 25px;
+    height: 80px;
+    width: 80px;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Intro{
+    border-radius: 50px;
+    width: 75%;
+    height: 400px;
+    background-color: rgba(210, 210, 225, 0.4);
+    text-align: center;
+
+}
+
+#searchbox{
+    width: 500px;
+    height: 60px;
+    border-radius: 35px;
+    background-color: rgba(0, 0, 0, 0.25);
+    border: none;
+    font-size: 25px;
+    color: white;
+    text-indent: 20px;
+    font-family: "Comic Sans MS";
+
+}
+#searchsign{
+    color: white;
+    font-family: 'CustomFont', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('AnandaBlackPersonalUseRegular-rg9Rx.ttf') ,format('ttf');
+    
+}
+h1{
+    font-family: 'CustomFont';
+    color: white;
+    text-align: center;
+}
+
+#Booker{
+    height: 50px;
+    width: 150px;
+    border-radius: 40px;
+    background-color: rgba(210, 210, 225, 0.7);
+    border: none;
+}
+
+#Booker:hover{
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+footer{
+    color: black;
+    font-size: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 20px;
+    font-weight: bolder;
+}
+
+
+#Reply{
+    color: white;
+    font-family: "CustomFont";
+}
